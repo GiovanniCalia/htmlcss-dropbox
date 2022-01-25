@@ -5,7 +5,7 @@
 }
 
 header{
-    line-height: 4rem;
+    padding: 2rem 0;
     position: sticky;
 }
 
@@ -34,21 +34,25 @@ header{
 
 .btn{
     padding: 0.5rem 1rem;
-    background-color:blue;
     color: white;
+    background-color: rgb(0, 97, 255);
+    display: inline-block;
 }
 
 .btn-inizia{
     float: right;
     padding-right: 1rem;
+    line-height: 1rem;
 }
 
 .btn-inizia .btn:hover{
     text-decoration: none;
     color: lightblue;
 }
+
 .destro{
     float: right;
+    /*line-height: 1.7em;*/
 }
 
 a{
