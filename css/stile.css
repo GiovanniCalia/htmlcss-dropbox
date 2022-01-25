@@ -5,7 +5,7 @@
 }
 
 header{
-    padding: 2rem 0;
+    margin: 20px 0;
     position: sticky;
 }
 
@@ -45,14 +45,14 @@ header{
     line-height: 1rem;
 }
 
-.btn-inizia .btn:hover{
+.btn:hover{
     text-decoration: none;
     color: lightblue;
 }
 
 .destro{
     float: right;
-    /*line-height: 1.7em;*/
+    line-height: 1.7em;
 }
 
 a{
@@ -67,4 +67,40 @@ a:hover{
 .main{
     max-width: 1500px;
     background-color: rgb(180, 208, 231);
+}
+
+.col-centrato{
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.col-30{
+    float: left;
+    width: 30%;
+}
+
+.col-60{
+    float: right;
+    width: 60%;
+}
+ 
+.col-60 img{
+    width: 100%;
+}
+
+.margin{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.fas{
+    font-size: 1.5rem;
+    margin-top: 2rem;
 }
