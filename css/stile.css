@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
 header{
     margin: 20px 0;
     position: sticky;
@@ -104,3 +108,42 @@ h1{
     font-size: 1.5rem;
     margin-top: 2rem;
 }
+
+.centered{
+    max-width: 900px;
+    background-color: lightsalmon;
+    margin: 150px auto;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.cerchio{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.cerchio-blu{
+    display: inline-block;
+    border: 5px solid blue;
+    padding: 6px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.col-main-piccolo{
+    width: calc((100% - 70px) / 3);
+    margin: 0 10px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+}
+
+.col-main-piccolo div{
+    padding: 0.8rem 0;
+}
+
