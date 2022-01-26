@@ -109,7 +109,7 @@ h1{
     margin-bottom: 0.5rem;
 }
 
-.fas{
+.fa-arrow-down{
     font-size: 1.5rem;
     margin-top: 2rem;
 }
@@ -153,28 +153,20 @@ h2{
     clear: both;
 }
 
-.col-main-piccolo{
-    width: calc((100% - 70px) / 3);
-    border: 1px solid black;
-    display: inline-block;
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.container-sotto{
-    width: 100%;
-}
-
 .col-main{
     width: calc((100% - 70px) / 3);
     border: 1px solid black;
     display: inline-block;
-    border-top: none;
-    float: left;
+    margin-top: 2rem;
+
 }
 
+.center{
+    text-align: center;
+}
 .centrale{
     margin: 0 30px;
+    margin-top: 2rem;
 }
 
 .col-main-piccolo div{
