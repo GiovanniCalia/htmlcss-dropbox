@@ -71,7 +71,7 @@ a:hover{
     text-decoration: underline;
 }
 
-/*  first main section*/
+/*  first section main */
 
 .main{
     max-width: 1500px;
@@ -145,6 +145,7 @@ h2{
 
 .container-grande{
     width: 100%;
+
 }
 
 .col-main{
@@ -152,15 +153,23 @@ h2{
     border: 1px solid black;
     display: inline-block;
     margin-top: 2rem;
+    float: left;
+   
+}
+
+.a-sinistra{
+    height: 863px;
+
+}
+ 
+.centrale{
+    margin-left:30px;
+    margin-right: 30px;
 }
 
 .center{
     text-align: center;
     line-height: 3rem;
-}
-
-.centrale{
-    margin: 0 30px;
 }
 
 .mr-top-left{
@@ -234,3 +243,49 @@ h4{
     color: white;
     background-color: rgb(0, 97, 255); 
  }
+
+ /* Third section main*/
+
+ .con-photo-text{
+     width: 100%;
+     margin-top: 100px;
+ }
+
+ .clearfix::after{
+     content: "";
+     display: table;
+     clear: both;
+ }
+
+ .img-partner{
+     width: 50%;
+     float: left;
+ }
+
+ .img-partner img{
+     width: 100%;
+ }
+
+ .text-partner{
+     float: left;
+     width: calc(50% - 3em);
+     margin-top: 3em;
+     margin-left: 3em;
+ }
+
+ .text-partner p{
+     margin-top: 2rem;
+     margin-bottom: 1.5rem;
+ }
+
+ .btn-white{
+     background-color: white;
+     color: black;
+     border: 1px solid black;
+ }
+
+ .h2-margin{
+     margin-top: 5rem;
+ }
+
+ 
