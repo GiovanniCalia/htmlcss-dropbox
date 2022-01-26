@@ -54,7 +54,7 @@ header{
 
 .btn:hover{
     text-decoration: none;
-    color: lightblue;
+    background-color: blue;
 }
 
 .destro{
@@ -126,14 +126,6 @@ h2{
     margin-bottom: 2rem;
 }
 
-.cerchio{
-    display: inline-block;
-    border: 1px solid black;
-    padding: 10px;
-    border-radius: 50%;
-    vertical-align: middle;
-}
-
 .cerchio-blu{
     display: inline-block;
     border: 5px solid blue;
@@ -142,15 +134,17 @@ h2{
     vertical-align: middle;
 }
 
+.cerchio{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: 1rem;
+}
 
 .container-grande{
     width: 100%;
-}
-
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
 }
 
 .col-main{
@@ -164,34 +158,44 @@ h2{
     text-align: center;
     line-height: 3rem;
 }
+
 .centrale{
     margin: 0 30px;
     margin-top: 2rem;
 }
 
-.col-main-piccolo div{
-    padding: 0.8rem 0;
-}
-
 .mr-top-left{
     margin-top: 2rem;
     margin-left: 2rem;
+    font-size: 90%;
 }
 
 .mr-top-left div{
-    margin: 2rem 0;
+    margin-bottom: 1.5rem;
 }
 
 .mr-top-left div a{
     color: rgb(62, 129, 225);
     text-decoration: underline;
 }
+
 h3{
     font-size: 1.5rem;
 }
 
+.mr-top-left section{
+    margin-bottom: 1rem;
+}
+
 .mr-top-left .mr-1rem{
     margin-top: 1rem;
+}
+
+.mr-top-left .mr-4rem{
+    margin-bottom: 4rem;
+}
+.mr-top-left > a{
+    margin-bottom: 2rem;
 }
 .hr-small{
     background-color: lightgray;
@@ -200,4 +204,17 @@ h3{
 }
 h4{
     font-size: 1.1em;
+    margin-bottom: 1.5rem;
 }
+
+ .fas-font{
+     float: left;
+     width: 10%;
+
+ }
+
+ .col-bassa{
+     width: 100%;
+     border: 1px solid black;
+     height: 100px;
+ }
