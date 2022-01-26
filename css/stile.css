@@ -158,11 +158,11 @@ h2{
     border: 1px solid black;
     display: inline-block;
     margin-top: 2rem;
-
 }
 
 .center{
     text-align: center;
+    line-height: 3rem;
 }
 .centrale{
     margin: 0 30px;
@@ -173,9 +173,13 @@ h2{
     padding: 0.8rem 0;
 }
 
-.col-main .mr-top-left{
+.mr-top-left{
     margin-top: 2rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
+}
+
+.mr-top-left div{
+    margin: 2rem 0;
 }
 
 h3{
