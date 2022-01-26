@@ -145,7 +145,6 @@ h2{
 
 .container-grande{
     width: 100%;
-
 }
 
 .col-main{
@@ -154,12 +153,10 @@ h2{
     display: inline-block;
     margin-top: 2rem;
     float: left;
-   
 }
 
 .a-sinistra{
     height: 863px;
-
 }
  
 .centrale{
@@ -187,7 +184,7 @@ h2{
     text-decoration: underline;
 }
 
-h3{
+.col-main h3{
     font-size: 1.5rem;
 }
 
@@ -214,7 +211,7 @@ h3{
     margin-top: 2rem;
 }
 
-h4{
+ .col-main h4, .col-bassa h4{
     font-size: 1.1em;
     margin-bottom: 1.5rem;
     margin-top: 2.5rem;
@@ -284,8 +281,31 @@ h4{
      border: 1px solid black;
  }
 
+ /* Fourth section main*/
+
  .h2-margin{
      margin-top: 5rem;
+ }
+
+ .col-drp-buisness{
+     width: 100%;
+ }
+
+ .cartella{
+     width: calc((100% - 68px) / 3);
+     display: inline-block;
+ }
+
+ .col-drp-buisness img{
+     width: 100%;
+ }
+
+.cartella p{
+    margin-top: 1rem;
+}
+
+ .cartella span{
+     text-decoration: underline;
  }
 
  
