@@ -117,8 +117,12 @@ h1{
 
 .centered{
     max-width: 900px;
-    margin: 150px auto;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+/* h2 and circles*/
 
 h2{
     font-size: 2rem;
@@ -324,7 +328,7 @@ h2{
 .h2-ristretto{
     width: 45%;
     margin-top: 6rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 /* Fifth section main non centered*/
@@ -332,17 +336,36 @@ h2{
 .con-quadrati{
     max-width: 1500px;
     height: 350px;
-    background-color: blueviolet;
+    background-color: rgb(245, 245, 245);
 }
 
 .quadrati{
     width: 30%;
-    background-color: blue;
     height: 350px;
     display: inline-block;
     position: relative;
+    float: left;
+
 }
 
+.designit-centrale{
+    width: 39%;
+    display: inline-block;
+    float: left;
+}
+
+.designit-centrale img{
+    width: 20%;
+}
+
+.designit-centrale p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.designit-centrale .hr-small{
+    width: 10%;
+}
 .destra{
     float: right;
 }
@@ -350,10 +373,21 @@ h2{
 .quadratini{
     width: 50%;
     height: 50%;
-    border: 1px solid black;
     display: inline-block;
     float: left;
     position: relative;
+}
+
+svg{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.designit path{
+    fill: white;
 }
 
 .verde{
@@ -381,7 +415,7 @@ h2{
 }
 
 .blu-scuro{
-    background-color: rgb(13red, 36, 129);
+    background-color: rgb(13, 36, 129);
 }
 
 .giallo{
@@ -399,5 +433,3 @@ h2{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-
