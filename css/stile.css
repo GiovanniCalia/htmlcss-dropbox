@@ -356,7 +356,7 @@ h2{
     margin-bottom: 3rem;
 }
 
-/* Fifth section main non centered*/
+/* Fifth section main quadrati*/
 
 .con-quadrati{
     max-width: 1500px;
@@ -458,7 +458,9 @@ svg{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
+
 
 /* Sixth section main*/
 
