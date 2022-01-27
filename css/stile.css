@@ -354,7 +354,7 @@ h2{
 
 .h2-ristretto{
     width: 45%;
-    margin-top: 6rem;
+    margin-top: 150px;
     margin-bottom: 3rem;
 }
 
@@ -499,12 +499,13 @@ svg{
 
  .last-container-main{
      max-width: 1500px;
+     margin-bottom: 100px;
+     margin: 120px 0;
  }
 
  .last-container-piccolo{
      width: 70%;
      margin: auto;
-     margin-top: 5rem;
  }
 
  .last-container-piccolo h3{
@@ -528,10 +529,21 @@ svg{
      margin: 2rem 0;
  }
 
+ .width-p{
+     width: 80%;
+     color: gray;
+ }
+
+ .width-p a{
+     color: grey;
+     text-decoration: underline;
+ }
+
  /* Footer*/
 
  footer{
      max-width: 1500px;
+     min-width: 1500px;
      background-color: black;
      padding-top: 2rem;
  }
@@ -575,9 +587,6 @@ svg{
  .col-footer .hr-grey{
      margin-top: 3rem;
      margin-bottom: 2.5rem;
- }
-
- .col-footer .hr-grey{
      width: 100%;
      background-color: gray;
      height: 2px;
