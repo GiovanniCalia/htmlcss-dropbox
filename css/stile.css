@@ -461,7 +461,6 @@ svg{
     filter: invert(1);
 }
 
-
 /* Sixth section main*/
 
 .contenitore-azzurro{
@@ -492,4 +491,37 @@ svg{
     color: black;
     padding: 0.5rem 2.5rem;
 }
+ /* Last section main*/
 
+ .last-container-main{
+     max-width: 1500px;
+ }
+
+ .last-container-piccolo{
+     width: 70%;
+     margin: auto;
+     margin-top: 5rem;
+ }
+
+ .last-container-piccolo h3{
+    font-size: 1.5rem;
+ }
+
+ .last-container-piccolo .fa-chevron-down{
+     float: right;
+     margin-right: 2rem;
+ }
+
+ .last-container-piccolo p{
+     display: none;
+ }
+
+ .mr-top-bottom:hover p{
+     display: block;
+ }
+
+
+
+ .mr-top-bottom > *{
+     margin: 2rem 0;
+ }
