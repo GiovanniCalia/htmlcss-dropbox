@@ -376,7 +376,6 @@ h2{
     display: inline-block;
     position: relative;
     float: left;
-
 }
 
 .designit-centrale{
@@ -578,8 +577,7 @@ svg{
  }
 
  .col-footer li{
-     margin-bottom: 0.5rem;
-     
+     margin-bottom: 0.5rem;  
  }
 
  .col-footer h4{
