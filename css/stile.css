@@ -16,6 +16,7 @@ header{
     height: 4rem;
     background-color: white;
     position: fixed;
+    z-index: 1;
     width: 100%;
     min-width: 1100px;
 }
@@ -136,6 +137,7 @@ h1{
 .fa-arrow-down{
     font-size: 1.5rem;
     margin-top: 2rem;
+    color: black;
 }
 
 /*  second section main*/
@@ -482,6 +484,7 @@ svg{
     float: left;
     width: 40%;
 }
+
 .con-azzurro-piccolo .col-30{
     float: right;
 }
@@ -491,6 +494,7 @@ svg{
     color: black;
     padding: 0.5rem 2.5rem;
 }
+
  /* Last section main*/
 
  .last-container-main{
@@ -520,8 +524,46 @@ svg{
      display: block;
  }
 
-
-
  .mr-top-bottom > *{
      margin: 2rem 0;
+ }
+
+ /* Footer*/
+
+ footer{
+     max-width: 1500px;
+     background-color: black;
+     padding-top: 2rem;
+
+ }
+
+ .footer-box{
+     width: 80%;
+     margin: auto;
+     color: white;
+ }
+
+ .footer-box ul{
+     list-style: none;
+     display: inline-block;
+ }
+
+ .col-footer{
+     float: left;
+     margin-left: 2rem;
+ }
+
+ .col-footer a {
+     color: white;
+     font-size: 80%;
+ }
+
+ .col-footer li{
+     margin-bottom: 0.5rem;
+
+ }
+ .col-footer h4{
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+
  }
