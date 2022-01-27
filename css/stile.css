@@ -54,7 +54,7 @@ header{
     margin-left: 0;
 }
 
-.container-nav .nav-destro li:first-child{
+.container-nav .nav-destro li:last-child{
     margin-right: 0;
 }
 
@@ -95,6 +95,28 @@ a:hover{
 .container-nav .logo-link:hover, .container-nav .btn:hover{
     border-bottom: none;
 }
+
+.testo-grigio{
+    width: 220px;
+    height: 6rem;
+    position: absolute;
+    display: none;
+    background-color: white;
+}
+
+.testo-dentro p{
+    line-height: 3rem;
+}
+
+.hover-finestra:hover .testo-grigio{
+    display: block;
+}
+
+ .testo-dentro :hover{
+     background-color: lightgrey;
+ }
+
+
 
 /*  first section main */
 
