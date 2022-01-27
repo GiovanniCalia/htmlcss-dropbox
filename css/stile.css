@@ -12,62 +12,87 @@ html{
 /* header section*/
 
 header{
-    margin: 20px 0;
+    padding: 0 2rem;
+    height: 4rem;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    min-width: 1100px;
 }
 
-.container{
-    max-width: 1500px;
+.container-nav{
+    width: 100%;
+    line-height: calc(4rem - 4px);
+    padding-top: 2px;
 }
 
-.container .logo-nav{
-    vertical-align: middle;
-    padding-left: 2rem;
-    line-height: 1rem;
-}
-
-.nav-principale, .nav-principale li, .btn-inizia, .logo-nav{ 
-    display: inline-block;
-}
-
-.nav-principale ul{ 
+.container-nav ul{ 
     list-style: none;
 }
 
-.nav-principale li{
+.container-nav li{
     display: inline-block;
-    padding: 0 1em;
+    margin: 0 1em;
 }
 
-.btn{
-    padding: 0.5rem 1rem;
-    color: white;
-    background-color: rgb(0, 97, 255);
+.container-nav .logo{
+    vertical-align: text-bottom;
+}
+
+.container-nav a{
     display: inline-block;
-}
-
-.btn-inizia{
-    float: right;
-    padding-right: 1rem;
-    line-height: 1rem;
-}
-
-.a-float:hover, .btn:hover{
-    text-decoration: none;
-    background-color: blue;
-}
-
-.destro{
-    float: right;
-    line-height: 1.7em;
-}
-
-a{
     color: black;
     text-decoration: none;
 }
 
+.container-nav a:hover{
+    border-bottom: 2px solid black;
+}
+
+.container-nav .nav-sinistro li:first-child{
+    margin-left: 0;
+}
+
+.container-nav .nav-destro li:first-child{
+    margin-right: 0;
+}
+
+.nav-destro{
+    float: right;
+}
+
+.nav-sinistro{
+    float: left;
+}
+
+.btn{
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 97, 255);
+}
+
+.container-nav .btn{
+    display: inline;
+    color: white;
+}
+
+.btn:hover{
+    text-decoration: none;
+    background-color: blue;
+}
+
+a{
+    text-decoration: none;
+}
+
 a:hover{
-    text-decoration: underline;
+    text-decoration: none;
+}
+
+.container-nav .logo-link:hover, .container-nav .btn:hover{
+    border-bottom: none;
 }
 
 /*  first section main */
@@ -85,7 +110,7 @@ a:hover{
 
 h1{
     font-size: 4rem;
-    padding-top: 3rem;
+    padding-top: 4rem;
     padding-bottom: 1rem;
 }
 
@@ -289,7 +314,7 @@ h2{
      border: 1px solid black;
  }
 
- .btn-white:hover{
+ .btn-white:hover, .btn-white2:hover{
      background-color: lightgray;
  }
 
@@ -366,6 +391,7 @@ h2{
 .designit-centrale .hr-small{
     width: 10%;
 }
+
 .destra{
     float: right;
 }
@@ -433,3 +459,35 @@ svg{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* Sixth section main*/
+
+.contenitore-azzurro{
+    max-width: 1500px;
+    height: 300px;
+    background-color: rgb(180, 208, 231);
+    position: relative;
+}
+
+.con-azzurro-piccolo{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -40%);
+}
+
+.con-azzurro-piccolo .col-60{
+    float: left;
+    width: 40%;
+}
+.con-azzurro-piccolo .col-30{
+    float: right;
+}
+
+.btn-white2{
+    background-color: white;
+    color: black;
+    padding: 0.5rem 2.5rem;
+}
+
