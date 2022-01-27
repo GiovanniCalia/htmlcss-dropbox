@@ -190,7 +190,7 @@ h2{
 }
 
 .a-sinistra{
-    height: 897px;
+    height: 865px;
 }
  
 .centrale{
@@ -213,6 +213,10 @@ h2{
 .mr-top-left div{
     margin-bottom: 1.5rem;
 }
+
+ .mr-top-left span{
+     display: block;
+ }
 
 .mr-top-left div a, .h2-ristretto a{
     color: rgb(62, 129, 225);
