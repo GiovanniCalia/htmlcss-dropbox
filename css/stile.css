@@ -534,13 +534,12 @@ svg{
      max-width: 1500px;
      background-color: black;
      padding-top: 2rem;
-
  }
 
  .footer-box{
      width: 80%;
      margin: auto;
-     color: white;
+     color: grey;
  }
 
  .footer-box ul{
@@ -550,7 +549,7 @@ svg{
 
  .col-footer{
      float: left;
-     margin-left: 2rem;
+     margin-left: 5rem;
  }
 
  .col-footer a {
@@ -558,12 +557,32 @@ svg{
      font-size: 80%;
  }
 
+ .col-footer a:hover{
+     text-decoration: underline;
+ }
+
  .col-footer li{
      margin-bottom: 0.5rem;
-
+     
  }
+
  .col-footer h4{
     padding-bottom: 1rem;
     font-size: 1.2rem;
+    color: white;
+ }
 
+ .col-footer .hr-grey{
+     margin-top: 3rem;
+     margin-bottom: 2.5rem;
+ }
+
+ .col-footer .hr-grey{
+     width: 100%;
+     background-color: gray;
+     height: 2px;
+ }
+
+ .fa-sort-up{
+     vertical-align: text-bottom;
  }
