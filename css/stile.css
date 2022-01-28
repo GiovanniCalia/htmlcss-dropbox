@@ -5,7 +5,7 @@
 }
 
 html{
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -58,30 +58,27 @@ header{
     margin-right: 0;
 }
 
-.nav-destro{
-    float: right;
+.container-nav .btn{
+    display: inline;
+    color: white;
+}
+
+.container-nav .logo-link:hover, .container-nav .btn:hover{
+    border-bottom: none;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .nav-sinistro{
     float: left;
 }
 
-.btn{
-    padding: 0.5rem 1rem;
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    background-color: rgb(0, 97, 255);
-}
-
-.container-nav .btn{
-    display: inline;
-    color: white;
-}
-
-.btn:hover{
-    text-decoration: none;
-    background-color: blue;
+.nav-destro{
+    float: right;
 }
 
 a{
@@ -92,37 +89,68 @@ a:hover{
     text-decoration: none;
 }
 
-.container-nav .logo-link:hover, .container-nav .btn:hover{
-    border-bottom: none;
+.hover-finestra{
+    position: relative;
+}
+ .hover-finestra:hover{
+     border-bottom: 2px solid black;
+ }
+
+.hover-finestra:hover .testo-grigio{
+    display: block;
 }
 
 .testo-grigio{
     width: 220px;
     height: 6rem;
     position: absolute;
+    top: calc(4rem - 2px);
     display: none;
     background-color: white;
 }
 
-.testo-dentro p{
-    line-height: 3rem;
+.testo-dentro .div-p{
+    width: 100%;
+    padding-left: 15px;
 }
 
-.hover-finestra:hover .testo-grigio{
-    display: block;
+.testo-dentro .sù{
+    margin-top: 10px;
+}
+
+.testo-dentro .giù{
+    margin-bottom: 10px;
+}
+
+.testo-dentro p{
+    line-height: calc(3rem - 10px); 
 }
 
  .testo-dentro :hover{
      background-color: lightgrey;
  }
 
+.btn{
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 97, 255);
+}
+
+.btn:hover{
+    text-decoration: none;
+    background-color: rgb(53, 130, 253);
+}
+
 /*  first section main */
 
 .main{
     max-width: 1500px;
     min-width: 1000px;
-    height: 500px;
+    height: 550px;
     background-color: rgb(180, 208, 231);
+    padding-top: 4rem;
 }
 
 .col-centrato{
@@ -131,7 +159,7 @@ a:hover{
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 3.8rem;
     padding-top: 4rem;
     padding-bottom: 1rem;
 }
@@ -194,6 +222,8 @@ h2{
     margin-left: 1rem;
 }
 
+/* 3 Columns */
+
 .container-grande{
     width: 100%;
 }
@@ -211,7 +241,7 @@ h2{
 }
 
 .a-sinistra{
-    height: 857px;
+    height: 836px;
 }
  
 .centrale{
@@ -271,28 +301,28 @@ h2{
     color: rgb(0, 97, 255);
 }
 
- .col-main h4, .col-bassa h4{
+.col-main h4, .col-bassa h4{
     font-size: 1.1em;
     margin-bottom: 2rem;
     margin-top: 1rem;
 }
 
- .fas-font{
+.fas-font{
      float: left;
      width: 10%;
- }
+}
 
- .col-bassa{
+.col-bassa{
      width: 100%;
      border: 1px solid black;
      margin-top: 3rem;
- }
+}
 
  .col-bassa h3{
      font-size: 1.2rem;
- }
+}
 
- .a-float{
+.a-float{
     float: right;
     display: inline-block;
     padding: 0.8em 3.5rem;
@@ -302,7 +332,7 @@ h2{
  }
 
  .a-float:hover{
-     background-color: blue;
+     background-color: rgb(53, 130, 253);
  }
 
  /* Third section main*/
@@ -310,12 +340,6 @@ h2{
  .con-photo-text{
      width: 100%;
      margin-top: 100px;
- }
-
- .clearfix::after{
-     content: "";
-     display: table;
-     clear: both;
  }
 
  .img-partner{
@@ -366,8 +390,9 @@ h2{
  .second{
      margin-top: 5rem;
  }
+
  .cartella{
-     width: calc((100% - 68px) / 3);
+     width: calc((100% - 69px) / 3);
      display: inline-block;
  }
 
