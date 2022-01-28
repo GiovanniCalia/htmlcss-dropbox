@@ -231,7 +231,6 @@ h2{
 .col-main{
     width: calc((100% - 68px) / 3);
     border: 1px solid black;
-    display: inline-block;
     margin-top: 2rem;
     float: left;
 }
@@ -256,8 +255,8 @@ h2{
 
 .mr-top-left{
     margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     font-size: 90%;
 }
 
@@ -288,6 +287,14 @@ h2{
 
 .mr-top-left > a{
     margin-bottom: 2rem;
+}
+
+.btn-blu{
+    padding: 0.5rem 2rem;
+}
+
+.btn-blu:hover{
+    background-color: rgb(53, 130, 253);
 }
 
 .hr-small{
@@ -324,39 +331,38 @@ h2{
 
 .a-float{
     float: right;
-    display: inline-block;
     padding: 0.8em 3.5rem;
     margin-right: 2rem;
     color: white;
     background-color: rgb(0, 97, 255); 
- }
+}
 
  .a-float:hover{
      background-color: rgb(53, 130, 253);
- }
+}
 
  /* Third section main*/
 
  .con-photo-text{
      width: 100%;
      margin-top: 100px;
- }
+}
 
  .img-partner{
      width: 50%;
      float: left;
- }
+}
 
  .img-partner img{
      width: 100%;
- }
+}
 
  .text-partner{
      float: left;
      width: calc(50% - 3em);
      margin-top: 3em;
      margin-left: 3em;
- }
+}
  
 .text-partner h3, .cartella h3{
     font-size: 1.5rem;
@@ -365,40 +371,40 @@ h2{
  .text-partner p{
      margin-top: 2rem;
      margin-bottom: 1.5rem;
- }
+}
 
  .btn-white{
      background-color: white;
      color: black;
      border: 1px solid black;
- }
+}
 
  .btn-white:hover, .btn-white2:hover{
      background-color: lightgray;
- }
+}
 
  /* Fourth section main*/
 
  .h2-margin{
      margin-top: 5rem;
- }
+}
 
  .col-drp-buisness{
      width: 100%;
- }
+}
 
  .second{
      margin-top: 5rem;
- }
+}
 
  .cartella{
      width: calc((100% - 69px) / 3);
      display: inline-block;
- }
+}
 
  .col-drp-buisness img{
      width: 100%;
- }
+}
 
 .cartella p{
     margin-top: 1rem;
@@ -412,12 +418,12 @@ h2{
 /* H2 500.00*/
 
 .h2-ristretto{
-    width: 45%;
+    width: 50%;
     margin-top: 150px;
     margin-bottom: 3rem;
 }
 
-/* Fifth section main quadrati*/
+/* Fifth section main square*/
 
 .con-quadrati{
     max-width: 1500px;
@@ -429,14 +435,12 @@ h2{
 .quadrati{
     width: 30%;
     height: 350px;
-    display: inline-block;
     position: relative;
     float: left;
 }
 
 .designit-centrale{
     width: 39%;
-    display: inline-block;
     float: left;
 }
 
@@ -460,7 +464,6 @@ h2{
 .quadratini{
     width: 50%;
     height: 50%;
-    display: inline-block;
     float: left;
     position: relative;
 }
@@ -560,43 +563,43 @@ svg{
      max-width: 1500px;
      margin-bottom: 100px;
      margin: 120px 0;
- }
+}
 
  .last-container-piccolo{
      width: 70%;
      margin: auto;
- }
+}
 
  .last-container-piccolo h3{
     font-size: 1.5rem;
- }
+}
 
  .last-container-piccolo .fa-chevron-down{
      float: right;
      margin-right: 2rem;
- }
+}
 
  .last-container-piccolo p{
      display: none;
- }
+}
 
  .mr-top-bottom:hover p{
      display: block;
- }
+}
 
  .mr-top-bottom > *{
      margin: 2rem 0;
- }
+}
 
  .width-p{
      width: 80%;
      color: gray;
- }
+}
 
  .width-p a{
      color: grey;
      text-decoration: underline;
- }
+}
 
  /* Footer*/
 
@@ -605,18 +608,18 @@ svg{
      min-width: 1000px;
      background-color: black;
      padding-top: 2rem;
- }
+}
 
  .footer-box{
      width: 80%;
      margin: auto;
      color: grey;
- }
+}
 
  .footer-box ul{
      list-style: none;
      display: inline-block;
- }
+}
 
  .col-footer{
      float: left;
